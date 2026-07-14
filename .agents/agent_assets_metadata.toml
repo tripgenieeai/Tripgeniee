@@ -1,0 +1,26 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "hU9Ug2zdgb9T-3iuDA5Ie"
+uri = "file://public/images/tokyo.jpg"
+type = "image"
+title = "Beautiful, cinematic night shot of Tokyo city street with neon lights. High quality, wide shot."
+
+[[outputs]]
+id = "QBMtjgZuzVp6jgIEyzk7y"
+uri = "file://public/images/paris.jpg"
+type = "image"
+title = "Beautiful, cinematic shot of Paris Eiffel tower at dusk. High quality, wide shot."
+
+[[outputs]]
+id = "fBrvhE6mE3YDYVoC4EhMm"
+uri = "file://public/images/bali.jpg"
+type = "image"
+title = "Bali rice terraces wide landscape"
+
+[[outputs]]
+id = "CGqKPDgUzAJbiEDjxqsKL"
+uri = "file://public/images/santorini.jpg"
+type = "image"
+title = "Santorini white buildings blue ocean"

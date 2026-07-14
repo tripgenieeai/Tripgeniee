@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "TripGeniee"
+version = "1.0.0"
+id = "artifacts/tripgeniee"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24200
+
+[services.development]
+run = "pnpm --filter @workspace/tripgeniee run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tripgeniee", "run", "build" ]
+publicDir = "artifacts/tripgeniee/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24200"
+BASE_PATH = "/"
