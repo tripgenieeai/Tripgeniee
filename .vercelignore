@@ -1,0 +1,7 @@
+artifacts/
+lib/
+scripts/
+.local/
+attached_assets/
+tsconfig.base.json
+pnpm-workspace.yaml
