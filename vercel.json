@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/artifacts/tripgeniee/$1" }
+  ]
+}
